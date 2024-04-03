@@ -41,6 +41,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@activity('fetch all tables').output.value",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Copy data",
